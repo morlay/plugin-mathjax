@@ -1,15 +1,15 @@
 {
-    "name": "gitbook-plugin-mathjax",
+    "name": "gitbook-plugin-mathjax-beta",
     "description": "MathJAX integration into GitBook",
     "main": "index.js",
-    "version": "1.0.1",
+    "version": "0.0.0",
     "engines": {
-        "gitbook": ">=2.0.0-alpha.8"
+        "gitbook": ">=2.0.0"
     },
     "dependencies": {
-        "mathjax": "git+https://github.com/mathjax/MathJax-node.git#e69475e386eb4d95ea3072561fa9e8a816726221",
-        "q": "1.1.2",
-        "crc": "3.2.1"
+        "MathJax-node": "git+https://github.com/mathjax/MathJax-node.git#develop",
+        "q": "1.4.1",
+        "crc": "3.3.0"
     },
     "homepage": "https://github.com/GitbookIO/plugin-mathjax",
     "repository": {

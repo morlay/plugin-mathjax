@@ -1,6 +1,8 @@
 Math integration with GitBook
 ==============
 
+** this is not a stable version **
+
 This plugin uses MathJax to display TeX formula. This is an official plugin. Versions `>=0.1.0` require GitBook `>=2.0.0`.
 
 ### How to use it?
@@ -9,7 +11,7 @@ Add it to your `book.json` configuration:
 
 ```
 {
-    plugins: ["mathjax"]
+    plugins: ["mathjax-beta"]
 }
 ```
 
